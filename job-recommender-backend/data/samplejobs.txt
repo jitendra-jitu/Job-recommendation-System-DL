@@ -1,0 +1,434 @@
+[
+    {
+        "Job Salary": "$80,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "Python, Django, Flask, REST APIs, SQL",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Python Developer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Java, Spring Boot, Microservices, Hibernate, AWS",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Java Developer"
+    },
+    {
+        "Job Salary": "$85,000 - $125,000",
+        "Job Experience Required": "2-4 years",
+        "Key Skills": "JavaScript, React, Node.js, Express, MongoDB",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Full Stack Developer"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Machine Learning, Python, TensorFlow, PyTorch, Data Science",
+        "Role Category": "Data Science & Analytics",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Machine Learning Engineer"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "AWS, Azure, Docker, Kubernetes, Terraform",
+        "Role Category": "Cloud Computing",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Cloud Engineer"
+    },
+    {
+        "Job Salary": "$110,000 - $150,000",
+        "Job Experience Required": "6-10 years",
+        "Key Skills": "DevOps, CI/CD, Jenkins, Ansible, Git",
+        "Role Category": "DevOps",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "DevOps Engineer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "Angular, TypeScript, HTML, CSS, REST APIs",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Frontend Developer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "C#, .NET, ASP.NET, SQL Server, Azure",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": ".NET Developer"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Go, REST APIs, Microservices, Docker, Kubernetes",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Go Developer"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Ruby, Ruby on Rails, PostgreSQL, REST APIs, AWS",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Ruby on Rails Developer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "PHP, Laravel, MySQL, REST APIs, JavaScript",
+        "Role Category": "Software Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "PHP Developer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Swift, iOS Development, Xcode, REST APIs, CocoaPods",
+        "Role Category": "Mobile Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "iOS Developer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "Kotlin, Android Development, REST APIs, Firebase, Java",
+        "Role Category": "Mobile Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Android Developer"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "React Native, JavaScript, Redux, REST APIs, Firebase",
+        "Role Category": "Mobile Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "React Native Developer"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Data Science, Python, Pandas, NumPy, Scikit-learn",
+        "Role Category": "Data Science & Analytics",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Data Scientist"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Big Data, Hadoop, Spark, Hive, Scala",
+        "Role Category": "Data Science & Analytics",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Big Data Engineer"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Tableau, Power BI, SQL, Data Visualization, Excel",
+        "Role Category": "Data Science & Analytics",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Data Analyst"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Blockchain, Ethereum, Solidity, Smart Contracts, Cryptography",
+        "Role Category": "Blockchain",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Blockchain Developer"
+    },
+    {
+        "Job Salary": "$110,000 - $150,000",
+        "Job Experience Required": "6-10 years",
+        "Key Skills": "Cybersecurity, Penetration Testing, Firewalls, SIEM, Kali Linux",
+        "Role Category": "Cybersecurity",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Cybersecurity Analyst"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "UI/UX Design, Figma, Adobe XD, Wireframing, Prototyping",
+        "Role Category": "UI/UX Design",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "UI/UX Designer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "QA Automation, Selenium, Java, TestNG, Jenkins",
+        "Role Category": "Quality Assurance",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "QA Automation Engineer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "Manual Testing, JIRA, Test Cases, Bug Tracking, SQL",
+        "Role Category": "Quality Assurance",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Manual Tester"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "SAP, ERP, ABAP, SAP HANA, SAP Fiori",
+        "Role Category": "ERP",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "SAP Consultant"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Salesforce, Apex, Visualforce, Lightning, SOQL",
+        "Role Category": "CRM",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Salesforce Developer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "WordPress, PHP, HTML, CSS, JavaScript",
+        "Role Category": "Web Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "WordPress Developer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "Shopify, Liquid, HTML, CSS, JavaScript",
+        "Role Category": "Web Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Shopify Developer"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "AI, Natural Language Processing, Python, TensorFlow, PyTorch",
+        "Role Category": "Artificial Intelligence",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "AI Engineer"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "RPA, UiPath, Automation Anywhere, Blue Prism, Python",
+        "Role Category": "Robotic Process Automation",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "RPA Developer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "PowerShell, Bash, Python, Linux, Windows Server",
+        "Role Category": "System Administration",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "System Administrator"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "Network Security, Firewalls, VPN, Cisco, Wireshark",
+        "Role Category": "Network Administration",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Network Administrator"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "ITIL, ServiceNow, Incident Management, Change Management, Problem Management",
+        "Role Category": "IT Service Management",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "IT Service Manager"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Agile, Scrum, JIRA, Confluence, Kanban",
+        "Role Category": "Project Management",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Scrum Master"
+    },
+    {
+        "Job Salary": "$110,000 - $150,000",
+        "Job Experience Required": "6-10 years",
+        "Key Skills": "IT Strategy, Budgeting, Vendor Management, Risk Management, Governance",
+        "Role Category": "IT Management",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "IT Director"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Technical Writing, Documentation, Confluence, Markdown, API Documentation",
+        "Role Category": "Technical Writing",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Technical Writer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "SEO, Google Analytics, SEMrush, Keyword Research, Content Strategy",
+        "Role Category": "Digital Marketing",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "SEO Specialist"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Social Media Marketing, Facebook Ads, Instagram Ads, Google Ads, Content Creation",
+        "Role Category": "Digital Marketing",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Social Media Manager"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Content Marketing, Blogging, Copywriting, Email Marketing, SEO",
+        "Role Category": "Digital Marketing",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Content Marketing Manager"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Product Management, Agile, JIRA, Roadmapping, Stakeholder Management",
+        "Role Category": "Product Management",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Product Manager"
+    },
+    {
+        "Job Salary": "$110,000 - $150,000",
+        "Job Experience Required": "6-10 years",
+        "Key Skills": "Business Analysis, Requirements Gathering, UML, SQL, Stakeholder Management",
+        "Role Category": "Business Analysis",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Business Analyst"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Data Engineering, ETL, Apache Spark, Hadoop, SQL",
+        "Role Category": "Data Engineering",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Data Engineer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Data Warehousing, ETL, SQL, Snowflake, Redshift",
+        "Role Category": "Data Engineering",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Data Warehouse Engineer"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Kubernetes, Docker, CI/CD, Jenkins, Terraform",
+        "Role Category": "DevOps",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "DevOps Architect"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "Site Reliability Engineering, Monitoring, Automation, Python, Linux",
+        "Role Category": "DevOps",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Site Reliability Engineer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Game Development, Unity, C#, 3D Modeling, VR/AR",
+        "Role Category": "Game Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Game Developer"
+    },
+    {
+        "Job Salary": "$85,000 - $120,000",
+        "Job Experience Required": "2-5 years",
+        "Key Skills": "AR/VR Development, Unity, Unreal Engine, C#, 3D Modeling",
+        "Role Category": "Game Development",
+        "Functional Area": "IT Software - Application Programming",
+        "Industry": "Information Technology",
+        "Job Title": "AR/VR Developer"
+    },
+    {
+        "Job Salary": "$100,000 - $140,000",
+        "Job Experience Required": "5-8 years",
+        "Key Skills": "Embedded Systems, C, C++, RTOS, Microcontrollers",
+        "Role Category": "Embedded Systems",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Embedded Systems Engineer"
+    },
+    {
+        "Job Salary": "$95,000 - $135,000",
+        "Job Experience Required": "4-7 years",
+        "Key Skills": "IoT, MQTT, Raspberry Pi, Arduino, Python",
+        "Role Category": "IoT",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "IoT Developer"
+    },
+    {
+        "Job Salary": "$90,000 - $130,000",
+        "Job Experience Required": "3-6 years",
+        "Key Skills": "Quantum Computing, Qiskit, Python, Linear Algebra, Quantum Algorithms",
+        "Role Category": "Quantum Computing",
+        "Functional Area": "IT Software - System Programming",
+        "Industry": "Information Technology",
+        "Job Title": "Quantum Computing Engineer"
+    }
+]
