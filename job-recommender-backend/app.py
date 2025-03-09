@@ -1,26 +1,44 @@
 import logging
 import os
+import pickle
+import tensorflow as tf
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from service.resume_parser import ResumeParsingService
 from load.jobs_data import sample_jobs
-from service.calculate_match_score import calculate_match_score
-
+from env.calculate_match_score import calculate_match_score
 from flask_cors import CORS
 
+# Initialize Flask app
 app = Flask(__name__)
-CORS(app)  # This allows all domains to access the API
+CORS(app)
 
 resume_parser = ResumeParsingService()
 
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'pdf'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+# Load pre-trained models and encoders
+MODEL_PATH = "data/job_recommendation_model.h5"
+TOKENIZER_PATH = "data/tokenizer.pkl"
+LABEL_ENCODER_PATH = "data/label_encoder.pkl"
+
+try:
+    model = tf.keras.models.load_model(MODEL_PATH)
+    with open(TOKENIZER_PATH, "rb") as f:
+        tokenizer = pickle.load(f)
+    with open(LABEL_ENCODER_PATH, "rb") as f:
+        label_encoder = pickle.load(f)
+    print("Models and encoders loaded successfully!")
+except Exception as e:
+    print(f"Error loading models: {e}")
+
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
 
 @app.route('/upload-resume', methods=['POST'])
 def upload_resume():
@@ -39,7 +57,6 @@ def upload_resume():
         parsed_data = resume_parser.parse_resume(file_path)
         os.remove(file_path)
 
-        # Construct response in the specified order
         return jsonify({
             "full_name": parsed_data.full_name,
             "email": parsed_data.email,
@@ -53,6 +70,7 @@ def upload_resume():
         logging.error(f"Error in /upload-resume: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
@@ -61,10 +79,8 @@ def predict():
         key_skills = data.get('key_skills', '')
 
         combined_input = f"{job_title}|{key_skills}"
-
         recommendations = predict_jobs_from_sample(combined_input)
 
-        # Filter out jobs with confidence == 0
         filtered_recommendations = [
             {
                 "Job Title": job["Job Title"],
@@ -87,7 +103,7 @@ def predict_jobs_from_sample(input_text, top_n=10):
 
     scored_jobs = []
     for job in sample_jobs:
-        score = calculate_match_score(input_skills, job['Key Skills'])  # Now using calculate_match_score
+        score = calculate_match_score(input_skills, job['Key Skills'])
         job_copy = job.copy()
         job_copy['confidence'] = float(score)
         scored_jobs.append(job_copy)
@@ -102,4 +118,4 @@ def get_sample_jobs():
 
 
 if __name__ == '__main__':
-  app.run(debug=True, port=5000)
+    app.run(debug=True, port=5000)
