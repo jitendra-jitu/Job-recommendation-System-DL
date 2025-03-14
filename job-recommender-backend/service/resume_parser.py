@@ -29,7 +29,7 @@ class ResumeData:
 class ResumeParsingService:
     """Service to parse resumes using Google's Gemini API."""
     def __init__(self):
-        self.GEMINI_API_KEY = 'AIzaSyCG_tXxWoWYeYp9oFUQurVDL6lCqyBRncg'  # Replace with a secure way to fetch API key
+        self.GEMINI_API_KEY = ''  # Replace with a secure way to fetch API key
         self.GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
     def parse_resume(self, resume_file_path: str) -> ResumeData:
